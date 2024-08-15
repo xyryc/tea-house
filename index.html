@@ -29,26 +29,54 @@
   <body>
     <header>
       <!-- Banner Section -->
-      <section class="flex justify-center gap-x-3">
+      <section class="flex justify-center items-center h-screen gap-x-3">
         <!-- Text Content -->
-        <div class="border-2 border-slate-500 mt-16">
-          <h1 class="text-7xl font-extrabold">
+        <div class="border-slate-500 w-5/12">
+          <h1 class="text-7xl font-extrabold leading-[100px]">
             It's good<br />tea time at The<br />Tea House
           </h1>
-          <p>
+          <p
+            class="text-[#777777] text-xl font-medium mt-7 mb-7 w-11/12 leading-[30px]"
+          >
             Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
             Your Taste Buds.
           </p>
-          <button>Explore More<i class="fa-solid fa-arrow-right"></i></button>
+          <button
+            class="text-xl font-bold text-white bg-orange-600 p-4 rounded-lg"
+          >
+            Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
         </div>
         <!-- Image Content -->
-        <div class="border-green-500 border-2 mt-28">
+        <div class="border-green-500 relative">
+          <!-- banner image -->
           <img src="images/banner.png" alt="" />
-          <div>Card</div>
+          <!-- card -->
+          <div
+            class="flex py-5 px-7 w-[255px] rounded-lg absolute bottom-3 left-20 bg-white drop-shadow-lg"
+          >
+            <img src="images/star.png" alt="" class="h-[45.94px]" />
+            <div class="">
+              <h3 class="text-3xl font-extrabold">5.00</h3>
+              <p class="text-base text-[#777777] font-semibold">
+                Trust Pilot Ratings
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- Our Featured Products -->
+      <section>
+        <h1>Our Featured Products</h1>
+        <p>
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
